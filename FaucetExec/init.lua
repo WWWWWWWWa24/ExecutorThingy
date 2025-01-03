@@ -85,25 +85,6 @@ if script.Name == "JestGlobals" then
     print(lsholder.Value)
 end
 
---[[
-if not game.CoreGui:FindFirstChild("Hi") then
-    local rape = script:Clone()
-    rape.Parent = game.CoreGui
-    rape.Name = "Hi"
-
-    wait(1)
-
-    require(rape)
-end
-
-
-if not script.Name == "JestGlobals" then
-    while true do
-        wait(1)
-    end
-end
-]]
-
 local RunService = game:GetService("RunService")
 if script.Name == "JestGlobals" then
     local exec = script.Exec
