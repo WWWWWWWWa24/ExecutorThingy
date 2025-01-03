@@ -129,7 +129,7 @@ int main()
     DWORD pid = GetProcessIdByName(L"RobloxPlayerBeta.exe");
 
     if (pid == 0) {
-        std::cerr << "open roblox player faggot ass nigga" << std::endl;
+        std::cerr << "Open ROBLOX to start Executing - Bulbasaur" << std::endl;
         system("pause");
         return 1;
     }
